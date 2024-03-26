@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #088178;;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+    background-color: #e3e6f3;
+    border: 5px solid #e3e6f3;
+    border-radius: 10px;
+    margin: 20px;
+  }
+  
+  .blog-posts {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .blog-posts h2 {
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+  }
+  
+  .blog-posts ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .blog-posts ul li {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #088178;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Add animation for sliding text */
+@keyframes slideIn {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  .slide-in {
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  /* Add styles for the pop-up message */
+  .popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 2px solid #333;
+    padding: 20px;
+    z-index: 999;
+  }
+  
